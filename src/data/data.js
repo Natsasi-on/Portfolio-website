@@ -7,7 +7,7 @@ export const Bio = {
     description:
         "I'm a motivated web designer and developer with skills in both front-end and back-end development. I'm also proficient in UX/UI design, creating user-friendly experiences. I love taking on new challenges, driven by my passion for learning. I'm committed to delivering high-quality work with a positive attitude and a growth-oriented mindset, aiming for excellence in every project",
     github: "https://github.com/Natsasi-on",
-    resume: "/Resume-Natsasion.pdf",
+    resume: "/resume-natsasion-developer.pdf",
     linkedin: "https://www.linkedin.com/in/natsasion-srithiowat-420a38210",
     tel: "tel:+1(613)413-3189",
     email: "mailto:natsasion.sri@gmail.com"
@@ -139,7 +139,7 @@ export const myskills = [
 export const projectsweb = [
     {
         id: 0,
-        title: "Recipe Website",
+        title: "Recipes Website",
         date: "Aug 2023 - Aug 2023",
         description:
             "Designed and developed a dynamic website with user account creation, dish type filtering, comment and rating functionality.",
@@ -157,7 +157,7 @@ export const projectsweb = [
     },
     {
         id: 1,
-        title: "Restaurant review website",
+        title: "Restaurant reviews website",
         date: "Jun 2023 - Jun 2023",
         description:
             "Created a dynamic website for users to submit restaurant reviews, utilizing JSON for data collection and implementing a sorting function for user convenience.",
@@ -214,7 +214,7 @@ export const projectsweb = [
     },
     {
         id: 3,
-        title: "Movie Website",
+        title: "Movies Website",
         date: "Jul 2023 - Jul 2023",
         description:
             "Designed and developed a movie information website that allows users to search for movies by name, fetching data from the OMDB API.",
@@ -230,7 +230,7 @@ export const projectsweb = [
     },
     {
         id: 4,
-        title: "Unlock",
+        title: "Unlock website",
         date: "Jun 2023 - Jun 2023",
         description:
             "Designed and developed a WordPress blog website with SEO optimization. Users can comment, view previous posts, and access content categorized by topics.",
@@ -238,8 +238,8 @@ export const projectsweb = [
         tags: [
             "WordPress",
             "Elementor",
-            "AIOSEO",
             "Google Analytics",
+            "AIOSEO",
             "Google Search Console",
         ],
         category: "WordPress",
@@ -329,7 +329,7 @@ export const projectsweb = [
     },
     {
         id: 10,
-        title: "Shoe Website",
+        title: "Shoes Website",
         date: "Apr 2022 - Apr 2022",
         description:
             "Developed simple website from scratch using Html, CSS and JavaScript. It offers a user-friendly experience, making it effortless for customers to browse, select, and make purchases. Additionally, customers can create accounts and log in to enhance their shopping experience.",
@@ -412,7 +412,7 @@ export const projectsdesign = [
         description:
             "Conducting interviews, digital wireframing, low-high fidelity prototyping, conducting usability studies, accounting for accessibility, and iterating on design, determining information architecture, and responsive design",
         image:
-            "/Slide22.png",
+            "/Picture2.png",
         tags: [
             "Adobe Xd",
             "Responsive Design",
@@ -442,7 +442,7 @@ export const projectsdesign = [
         description:
             "Defined vision, mission, and brand identity, conducted target audience research, created user personas, and designed user journey maps, crafted a marketing plan, estimated profit, and pitched the project. Created interactive wireframes and prototypes using Adobe XD. Conducted usability tests and gathered user feedback, using this data to enhance the design and ensure that the applications offer a user-friendly and enjoyable experience.",
         image:
-            "/foodconnect.png",
+            "/Picture1.png",
         tags: [
             "Adobe Xd",
             "Responsive Design",
@@ -473,7 +473,7 @@ export const projectsdesign = [
         description:
             "Designed a modern, simple website for taking notes using Figma.",
         image:
-            "/MemoMaster.png",
+            "/b.png",
         tags: [
             "Figma",
             "User research",
@@ -692,11 +692,11 @@ export const projectsdesign = [
 
     {
         id: 18,
-        title: "Shoe Logo",
+        title: "Shoes Logo",
         date: "Apr 2022 - Apr 2022",
         description:
             "Logo designed using Canva",
-        image: "/canva_3.png",
+        image: "/JuNA.png",
         tags: ["Canva"],
         category: "Logo",
         wireframeMobile: "",
