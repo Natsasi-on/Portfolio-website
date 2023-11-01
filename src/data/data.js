@@ -248,7 +248,7 @@ export const projectsweb = [
     },
     {
         id: 5,
-        title: "WordPress E-commerce",
+        title: "WordPress Ecommerce",
         date: "Feb 2023 - Feb 2023",
         description:
             "Built an e-commerce platform featuring product customization (size and color selection), payment processing, Wishlist, and customer inquiry functionality.",
