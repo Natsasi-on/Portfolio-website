@@ -44,7 +44,7 @@ Feel free to explore my live portfolio to get a firsthand experience of my web d
 For more details, visit the <a href="https://natsasion-portfolio.netlify.app/">[ Live Portfolio ]</a>
 
 ## License
-This web portfolio is licensed under the [Your License Name] - see the [LICENSE.md](LICENSE) file for details.
+This project is licensed under the Natsasion License - see the [LICENSE.md](LICENSE) file for details.
 
 ## Contact
 If you have any questions or feedback, please don't hesitate to reach out to me at [natsasion.sri@gmail.com](mailto:natsasion.sri@gmail.com).
