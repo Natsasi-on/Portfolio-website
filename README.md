@@ -1,9 +1,9 @@
-<h1 align="center">Web Portfolio</h1>
+<h1 align="center">Natsasion Portfolio</h1>
 
 <p align="center">
     A dynamic web portfolio built with React, showcasing my projects and skills.
     <br>
-    <a href="[Your Portfolio URL]">[ Live Portfolio ]</a>
+    <a href="https://natsasion-portfolio.netlify.app/">[ Live Portfolio ]</a>
 </p>
 
 ## Portfolio Overview
