@@ -1,0 +1,35 @@
+#root,
+* {
+  font-family: var(--body-font);
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a,
+ul,
+li {
+  text-decoration: none;
+  list-style: none;
+}
+
+/* To create a text gradient */
+/* We set our gradient as the background, and the text is displayed on top of it. */
+/* The next step is to set background-clip: text. This will only render the background where there's text. Then, set the text color to transparent so we can see the gradient background, making it appear as if it's the color of the text. */
+.gradient-text {
+  /* fallback color */
+  background-color: var(--violet-color);
+  background: var(--gradient-color);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  width: fit-content;
+}
+
+/* making gradient for border */
+.gradient-container {
+  background: linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0)) padding-box,
+    var(--gradient-color) border-box;
+  border-radius: 8px;
+  border: 1px solid transparent;
+}

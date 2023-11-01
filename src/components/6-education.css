@@ -1,0 +1,84 @@
+.edu-each {
+    width: 65%;
+    margin: 20px 50px;
+
+}
+
+.float-right {
+    float: right;
+    clear: both;
+}
+
+.float-left {
+    clear: both;
+    float: left;
+}
+
+.title-ex a {
+    font-size: 1.5rem;
+    font-family: var(--Title-font);
+    color: var(--body-color);
+}
+
+.title-ex a:hover {
+    color: var(--purple-color);
+}
+
+.img-box-edu {
+    width: 75px;
+    height: 70px;
+    background-color: var(--body-color);
+    border-radius: 5px;
+    margin-top: 7px;
+    overflow: hidden;
+}
+
+.img-box-edu img {
+    height: 100%;
+    object-fit: contain;
+}
+
+.top-box-edu {
+    display: flex;
+    flex: 50px 0;
+}
+
+.top-box-edu img {
+    padding: 8px;
+    object-fit: contain;
+    height: 100%;
+}
+
+.image-box {
+    width: 75px;
+    height: 75px;
+    background-color: var(--body-color);
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.edu-desc {
+    /* display: flex; */
+    color: var(--body-color);
+    margin-bottom: 10px;
+
+}
+
+
+@media only screen and (max-width: 1035px) {
+    .edu-each {
+        width: 100%;
+    }
+
+    /* .imgage-box {
+        width: 20%;
+        height: 45%;
+        float: none;
+    } */
+
+    .float-left,
+    .float-right {
+        width: 100%;
+        margin: 20px 0;
+    }
+}

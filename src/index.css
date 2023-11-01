@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap');
+
+:root {
+    --gradient-color: linear-gradient(90deg, rgb(242, 34, 152) 0%, rgba(160, 10, 218, 1) 100%);
+    --body-color: #bcbbbb;
+    --violet-color: rgba(242, 34, 152, 1);
+    --purple-color: rgba(160, 10, 218, 1);
+
+    --Title-font: 'Tilt Warp', sans-serif;
+    --body-font: 'Tilt Neon', sans-serif;
+}
+
+body {
+    color: white;
+    background-color: black;
+}
+
+a {
+    color: white;
+}
+
+section {
+    /* margin: 2.4rem 12rem; */
+    margin: 4.4rem 12vw;
+    padding-bottom: 40px;
+}
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5 {
+    font-family: var(--Title-font);
+}
+
+.h1 {
+    font-size: 4rem;
+    /* font-size: 5vw; */
+}
+
+.h2 {
+    font-size: 2.8rem;
+    /* font-size: 3.5vw; */
+}
+
+.h3 {
+    font-size: 2.5rem;
+    /* font-size: 3vw; */
+}
+
+.h4 {
+    font-size: 1.7rem;
+    /* font-size: 2.5vw; */
+}
+
+.h5 {
+    font-size: 1.2rem;
+    /* font-size: 1.5vw; */
+}
+
+
+p,
+.p,
+a {
+    font-size: 1.1rem;
+    /* font-size: 1.2vw; */
+}
+
+@media (min-width: 1920px) {
+
+    /* body {
+        padding: 0 200px;
+    } */
+
+}

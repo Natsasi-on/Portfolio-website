@@ -1,0 +1,248 @@
+.show {
+    display: block;
+}
+
+.overlay-container {
+    padding: 1rem;
+    width: 80%;
+    box-shadow: 0 0 50px var(--purple-color);
+    margin: auto;
+    overflow: hidden;
+    text-align: left;
+    /* transform: scale(0.7) translate(0, -20%); */
+    /* transform-origin: 10% 50%; */
+    position: relative;
+}
+
+#overlay {
+    position: fixed;
+    /* display: none; */
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 1000;
+    /* background not move when scroll */
+    overflow: scroll;
+}
+
+#overlay button {
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    background-color: transparent;
+    color: white;
+    border: 0;
+    cursor: pointer;
+    font-size: 1.3rem;
+}
+
+.crop-image-big {
+    width: 100%;
+    overflow: hidden;
+    border-radius: 15px;
+    margin-top: 30px;
+}
+
+.crop-image-big img {
+    width: 100%;
+    object-fit: contain;
+    border-radius: 15px;
+    transform: scale(0.95);
+}
+
+.crop-image-big-web {
+    width: 100%;
+    height: 28rem;
+    overflow: hidden;
+    border-radius: 15px;
+    margin-top: 10px;
+}
+
+.crop-image-big-web img {
+    height: 30rem;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.technology-big {
+    display: flex;
+    margin: 1rem 0;
+    flex-wrap: wrap;
+}
+
+.technology-big ul li,
+.technology-big ul {
+    list-style-type: square !important;
+    list-style: circle !important;
+}
+
+.technology-big li {
+    margin: 1rem 1.5rem;
+}
+
+.p-big {
+    font-size: 1.3rem;
+    color: var(--violet-color);
+}
+
+.h5-big,
+.sum {
+    margin-left: 1.5rem;
+    color: var(--body-color);
+    margin-bottom: 1.5rem;
+    margin-right: .9rem;
+}
+
+.h5-big {
+    font-size: 2.5rem;
+    font-family: var(--Title-font);
+}
+
+.sum {
+    font-size: 1.3rem;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    column-gap: 3rem;
+    text-align: center;
+}
+
+.gradient-btn,
+#live-btn {
+    border-radius: 8px;
+    /* padding: 10px; */
+    width: 40%;
+    margin-bottom: 2rem;
+    height: 50px;
+}
+
+
+.gradient-btn a {
+    text-transform: uppercase;
+    font-family: var(--Title-font);
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    padding-top: 12px;
+}
+
+#live-btn {
+    background-image: var(--gradient-color);
+}
+
+#live-btn a {
+    color: white;
+    text-transform: uppercase;
+    font-family: var(--Title-font);
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    padding-top: 12px;
+}
+
+.gradient-btn:hover,
+#live-btn:hover {
+    box-shadow: 0 0 20px var(--purple-color);
+}
+
+.btn-link {
+    flex-wrap: wrap;
+}
+
+@media only screen and (max-width: 1035px) {
+    .overlay-container {
+        width: 98%;
+    }
+
+    .crop-image-big-web img {
+        /* height: 21rem; */
+        height: 35vw;
+    }
+
+    .crop-image-big-web {
+        /* height: 20rem; */
+        height: 36vw;
+    }
+
+    .technology-big li {
+        margin: 0.2rem 0 0.5rem 1.5rem;
+    }
+
+    .p-big {
+        font-size: 1.2rem;
+    }
+
+    .h5-big {
+        font-size: 2rem;
+    }
+
+    .sum {
+        font-size: 1.1rem;
+    }
+
+    .btn {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .gradient-btn,
+    #live-btn {
+        width: 90%;
+    }
+
+    .design-big {
+
+        width: 90%;
+        margin: 30px auto auto auto;
+
+    }
+}
+
+@media only screen and (max-width: 705px) {
+    .overlay-container {
+        width: 100%;
+    }
+
+    .overlay-box {
+        margin: 2.4rem 5vw;
+    }
+
+    .crop-image-big-web img {
+        height: 19rem;
+    }
+
+    .crop-image-big-web {
+        height: 20rem;
+    }
+}
+
+@media only screen and (max-width: 488px) {
+    .crop-image-big-web img {
+        height: 15rem;
+
+    }
+
+    .crop-image-big-web {
+        height: 14rem;
+
+    }
+}
+
+
+@media only screen and (max-width: 376px) {
+    .crop-image-big-web img {
+        height: 21rem;
+    }
+
+    .crop-image-big-web {
+        height: 20rem;
+
+    }
+}

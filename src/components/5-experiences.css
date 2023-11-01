@@ -1,0 +1,120 @@
+.experience-box {
+    box-shadow: 0 0 50px var(--purple-color);
+    padding: 20px;
+    margin: 20px;
+    width: 80%;
+    margin: 20px auto;
+    text-align: left;
+}
+
+.img-box {
+    width: 75px;
+    height: 75px;
+    background-color: var(--body-color);
+    overflow: hidden;
+    border-radius: 5px;
+    margin-top: 7px;
+}
+
+.img-box img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    padding: 8px;
+}
+
+.title-ex {
+    color: var(--body-color);
+    text-transform: initial;
+}
+
+.top-box {
+    display: flex;
+    flex: 50px 0;
+}
+
+.text-title {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 10px;
+}
+
+.p-ex {
+    margin: 0;
+}
+
+.sum-ex {
+    text-align: left;
+    margin-top: 10px;
+
+}
+
+.sum-ex ul,
+.sum-ex ul li {
+    text-decoration: initial;
+    list-style: initial;
+}
+
+.sum-ex ul li {
+    margin-left: 50px;
+}
+
+.sum-ex a {
+    color: var(--body-color);
+    text-decoration: underline;
+}
+
+.skill-ex {
+    display: flex;
+    color: var(--body-color);
+}
+
+.title {
+    color: var(--body-color);
+}
+
+.img-box {
+    width: 75px;
+    height: 75px;
+    background-color: var(--body-color);
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.img-box img {
+    padding: 8px;
+    object-fit: contain;
+    height: 100%;
+}
+
+@media only screen and (max-width: 1035px) {
+    .experience-box {
+        width: 100%;
+    }
+
+
+
+}
+
+@media only screen and (max-width: 426px) {
+    .top-box-edu {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .title-ex {
+        text-align: center;
+        margin: 15px 0;
+    }
+
+    .text-title {
+        margin-left: 0;
+    }
+
+    .skill-ex {
+        flex-direction: column;
+    }
+}

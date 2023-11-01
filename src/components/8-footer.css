@@ -1,0 +1,30 @@
+footer {
+    text-align: center;
+    padding: 20px 200px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer li,
+.footer a {
+    color: var(--body-color);
+}
+
+.footer a:hover {
+    color: var(--purple-color);
+}
+
+@media only screen and (max-width: 1035px) {
+    .footer {
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 590px) {
+    footer {
+        padding: 20px 20px !important;
+    }
+}
