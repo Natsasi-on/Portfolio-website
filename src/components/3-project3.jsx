@@ -20,7 +20,7 @@ function Projectxyz(props) {
                                 {item.tags.map((mytag) => <li className='p color-tect'>{mytag}</li>)}
                             </ul>
                             <p className="h5 title-each">{item.title}</p>
-                            <p className="p">{item.description}</p>
+                            <p className="p">{item.description.substring(0, 130)} ...</p>
                         </Link>
                     </button>
                 </div>
@@ -38,7 +38,7 @@ function Projectxyz(props) {
                             {filteredItem.tags.map((mytag) => <li className='p color-tect'>{mytag}</li>)}
                         </ul>
                         <p className="h5 title-each">{filteredItem.title}</p>
-                        <p className="p">{filteredItem.description}</p>
+                        <p className="p">{filteredItem.description.substring(0, 130)} ...</p>
                     </Link>
                 </button>
             </div>)
